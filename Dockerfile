@@ -1,4 +1,4 @@
-FROM node:13-alpine
+FROM node:14-alpine
 LABEL version=1.1.0
 ADD ./app /app
 WORKDIR /app
